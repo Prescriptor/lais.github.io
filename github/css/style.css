@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #161c23; 
+	font-family: Tahoma;
+	color: #DCDCDC;
+
+
+}
+h1 {
+	color: white;
+	font-size: 40px;
+	padding: 15px;
+	text-align: center;
+}
+h2 {
+	color: white;
+	font-size: 35px;
+	padding: 15px;
+	text-align: center;
+
+}
+.menu-box {
+	margin: auto;
+	width:1000px;
+	height: 50px;
+	background-color: #aeaeae;
+	display: block;
+	position: relative;
+	
+	text-align: center;
+	font-size: 35px;
+	font-color: black;
+	padding: 5px 0px 0px 20px;
+}
+
+.menu-box a{
+	margin: 0px 30px;
+	color: #000 ;
+}
+
+.img-center {
+	margin: -10px auto 15px auto;
+	width: 250px;
+	display: block;
+	position: relative;
+}
+
+.text{
+	width:1000px;
+	position: relative;
+	margin: auto;
+	font-size: 22px;
+	padding: 5px;
+	text-align: justify;
+	text-indent: 20px  ;
+	line-height: 1.1; 
+
+}
+
+.form {
+	position: relative;
+	margin: auto;
+	margin-top: 22px;
+	padding: 20px;
+	border: 5px	solid #DCDCDC;
+	width:400px;
+	color: white;
+
+}
+
+.form input {
+	margin-top: 10px;
+	width: 300px;
+	padding: 17px;
+	font-size: 20px;
+	border: 1px solid #333;
+	background-color: #DCDCDC;
+}
+
+.form-header{
+	text-align: left;
+	font-size: 22px;
+	font-weight: 900;
+	color: #DCDCDC;
+	margin-bottom: 22px;
+}
+.form button{
+	margin-top: 10px;
+	font-size: 22px;
+	font-weight: 900;
+	color: black;
+	background-color: #aeaeae;
+	border: none;
+	width: 150px;
+	height: 35px;
+}
+.none {
+	height: 100px;
+
+}
+
+
+
+
+
+/*
+блок: <div> + class="" , id="" 
+заголовок: <h1> , <h2> , ... , <h6> 
+строка: <p> + class="" , id="" 
+
+img
+ссылка: <a href="info.html">Контакты</a>
+span
+em
+strong
+
+
+class="name"     - .name
+id="name"  - #name
+
+
+
+
+
+css
+
+цвет - color: rgba(255,255,255,0.9);
+цвет фона - 	background: #000; (bgc)
+выравниевание - text-align: justify; (ta-j)
+прописные/заглавные - text-transform: uppercase; (tt-u)
+декорирование (подчёркнутый) - text-decoration: underline; (td-u)
+разделение по блокам в строке - 	display: inline-block; (d-ib)
+ширина - width: 400px;
+высота - heigth: 100px;
+отступ - padding: 20px;
+
+
+описание элементов html - htmlreference.io
+сброс настроек браузеров - файл "reset.min.css"
+
+*/
+
